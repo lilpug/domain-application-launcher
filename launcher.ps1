@@ -1,12 +1,13 @@
 <#
     Title: Domain Application Launcher
-	Vdersion: 1.0
+    Version: 1.0
     Author: David Whitehead
-	Copyright (c) David Whitehead
+    Copyright (c) David Whitehead
     Copyright license: MIT
     Description: a powershell script which makes it easier to run both sql server management studio and visual studio as a network user              
-	Requires: windows, powrshell and visual studio and sql server management studio "if you want to use it for both"
-	NOTE: for this to work, you will still need your machine registered to the domain.
+    Requires: windows, powrshell and visual studio and sql server management studio "if you want to use it for both"
+    NOTE: for this to work, you will still need your machine registered to the domain.
+    URL: https://github.com/lilpug/domain-application-launcher
 #>
 
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms")
