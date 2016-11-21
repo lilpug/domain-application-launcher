@@ -16,7 +16,7 @@
 # Create an object to hold the pop-up dialog box.
 
 $objForm = New-Object System.Windows.Forms.Form
-$objForm.Text = "Select The Service You Want To Run"
+$objForm.Text = "Select The Service"
 $objForm.Size = New-Object System.Drawing.Size(300, 200)
 $objForm.StartPosition = "CenterScreen"
 
