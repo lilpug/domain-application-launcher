@@ -1,4 +1,4 @@
-<#
+<#!
     Title: Domain Application Launcher
     URL: https://github.com/lilpug/domain-application-launcher
     Version: 1.0
@@ -16,7 +16,7 @@
 # Create an object to hold the pop-up dialog box.
 
 $objForm = New-Object System.Windows.Forms.Form
-$objForm.Text = "Select The Service"
+$objForm.Text = "Select The Service You Want To Run"
 $objForm.Size = New-Object System.Drawing.Size(300, 200)
 $objForm.StartPosition = "CenterScreen"
 
