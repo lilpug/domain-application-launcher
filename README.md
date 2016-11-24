@@ -1,5 +1,5 @@
 # Domain Application Launcher
-## Description
+
 The Domain Application Launcher is a script that helps run either Visual Studio or Sql Server Management Studio as a different user.
 
 ## Getting Started
